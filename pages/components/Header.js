@@ -14,7 +14,7 @@ const Header = () => {
         <div className={styles.header__main__div}>
             <div className={styles.header__main__container}>
                 <div className={styles.header__main__backBtn}>
-                <IoIosArrowBack/>
+                    <IoIosArrowBack />
                 </div>
                 <div className={styles.header__main__text}>
                     <p>DASHBORD</p>
@@ -33,7 +33,7 @@ const Header = () => {
                 <Graph />
             </div>
             <div className={styles.graph__container}>
-                <Onboarding />
+                {/* <Onboarding /> */}
             </div>
             <div className={styles.graph__container}>
                 <Renewals />
