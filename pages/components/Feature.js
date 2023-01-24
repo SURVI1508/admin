@@ -4,7 +4,7 @@ import featuress from '../featureJson';
 const Feature = () => {
     return (
         <div className={styles.feature__main__div}>
-            <div className={styles.feature__main__containerv}>
+            {/* <div className={styles.feature__main__containerv}>
                 {
                     featuress.map((val,i) => {
                         return (
@@ -23,7 +23,7 @@ const Feature = () => {
                     })
                 }
 
-            </div>
+            </div> */}
         </div>
     )
 }
